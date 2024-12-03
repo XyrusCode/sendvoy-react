@@ -23,9 +23,9 @@ const SEO = ({ title, description, type = "website", name = "SendVoy" }: SEOProp
 
   return (
     <Helmet>
-      <title>{title} | SendVoy</title>
+      <title>{title} | SendVoy - Logistics Solutions</title>
       <meta name="description" content={description} />
-      <meta property="og:title" content={title} />
+      <meta property="og:title" content={`${title} | SendVoy`} />
       <meta property="og:description" content={description} />
       <meta property="og:type" content={type} />
       <meta property="og:url" content={window.location.href} />
